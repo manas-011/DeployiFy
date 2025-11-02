@@ -5,7 +5,8 @@ import httpProxy from 'http-proxy'
 const app = express()
 const PORT = 8000
 
-const BASE_PATH = 'https://demo-obj-bucket.s3.ap-south-1.amazonaws.com/__outputs'
+// s3 bucket base-path
+const BASE_PATH = '' 
 
 const proxy = httpProxy.createProxy()
 
